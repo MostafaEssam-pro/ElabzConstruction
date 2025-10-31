@@ -9,7 +9,7 @@
                                     <div class="col-lg-8">
                                         <div class="gt-hero-content">
                                             <h1 class="wow fadeInUp" data-wow-delay=".3s">Innovative <span>Engineering</span> & Construction</h1>
-                                            <p class="wow fadeInUp" data-wow-delay=".5s">At ELBAZ Engineering, we merge creativity with technology to deliver exceptional construction solutions. Our expertise spans residential, commercial, and industrial projects, ensuring quality and efficiency.</p>
+                                            <p class="wow fadeInUp" data-wow-delay=".5s">At OMRAN Engineering, we merge creativity with technology to deliver exceptional construction solutions. Our expertise spans residential, commercial, and industrial projects, ensuring quality and efficiency.</p>
                                             <a href="#project" class="gt-theme-btn wow fadeInUp" data-wow-delay=".7s">
                                                 <span class="gt-text-btn"><span class="gt-text-2">Explore Projects <i class="fa-solid fa-arrow-right"></i></span></span>
                                             </a>

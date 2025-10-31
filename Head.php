@@ -16,10 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- ========== Primary SEO Meta Tags ========== -->
-    <title>ELBAZ Engineering & Construction | Reliable, Integrated Building Solutions in Egypt</title>
-    <meta name="description" content="ELBAZ Engineering & Construction — experts in civil, architectural, electrical, and mechanical works for residential, commercial, and industrial projects in Egypt. Over 10 years of trusted experience.">
-    <meta name="keywords" content="ELBAZ Engineering, ELBAZ Construction, Construction Egypt, Engineering Company Egypt, Civil Engineering, MEP, Architecture Design, Industrial Projects, Commercial Buildings, Finishes, Cairo Contractors, Building Company, Engineering Firm Cairo">
-    <meta name="author" content="ELBAZ Engineering & Construction">
+    <title>OMRAN Engineering & Construction | Reliable, Integrated Building Solutions in Egypt</title>
+    <meta name="description" content="OMRAN Engineering & Construction — experts in civil, architectural, electrical, and mechanical works for residential, commercial, and industrial projects in Egypt. Over 10 years of trusted experience.">
+    <meta name="keywords" content="OMRAN Engineering, OMRAN Construction, Construction Egypt, Engineering Company Egypt, Civil Engineering, MEP, Architecture Design, Industrial Projects, Commercial Buildings, Finishes, Cairo Contractors, Building Company, Engineering Firm Cairo">
+    <meta name="author" content="OMRAN Engineering & Construction">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
     <meta name="bingbot" content="index, follow">
@@ -43,8 +43,8 @@
 
     <!-- ========== Open Graph / Facebook ========== -->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="ELBAZ Engineering & Construction">
-    <meta property="og:title" content="ELBAZ Engineering & Construction | Building Trust, Quality & Innovation">
+    <meta property="og:site_name" content="OMRAN Engineering & Construction">
+    <meta property="og:title" content="OMRAN Engineering & Construction | Building Trust, Quality & Innovation">
     <meta property="og:description" content="We design and build high-quality residential, commercial, and industrial projects in Egypt with full engineering and MEP services.">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
@@ -52,10 +52,10 @@
 
     <!-- ========== Twitter Card ========== -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ELBAZ Engineering & Construction | Reliable, Integrated Building Solutions">
+    <meta name="twitter:title" content="OMRAN Engineering & Construction | Reliable, Integrated Building Solutions">
     <meta name="twitter:description" content="Trusted engineering & construction firm in Egypt — delivering excellence for over a decade.">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
-    <meta name="twitter:site" content="@ELBAZEngineering">
+    <meta name="twitter:site" content="@OMRANEngineering">
 
     <!-- ========== Google Verification & Others ========== -->
     <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
@@ -148,15 +148,15 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "ELBAZ Engineering & Construction",
+      "name": "OMRAN Engineering & Construction",
       "url": "https://yourdomain.com/",
       "logo": "https://yourdomain.com/assets/img/logo.png",
       "foundingDate": "2015",
       "founder": {
         "@type": "Person",
-        "name": "Eng. Mohamed Elbaz"
+        "name": "Eng. Mohamed OMRAN"
       },
-      "description": "ELBAZ Engineering & Construction — a trusted construction and engineering firm offering civil, architectural, electrical, and mechanical solutions across Egypt.",
+      "description": "OMRAN Engineering & Construction — a trusted construction and engineering firm offering civil, architectural, electrical, and mechanical solutions across Egypt.",
       "telephone": "+20-120-506-2226",
       "email": "info@example.com",
       "address": {
@@ -167,9 +167,9 @@
       },
       "areaServed": "Egypt",
       "sameAs": [
-        "https://facebook.com/elbazengineering",
-        "https://instagram.com/elbazengineering",
-        "https://linkedin.com/company/elbazengineering"
+        "https://facebook.com/omranengineering",
+        "https://instagram.com/omranengineering",
+        "https://linkedin.com/company/omranengineering"
       ]
     }
     </script>
@@ -179,7 +179,7 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "ELBAZ Engineering & Construction",
+      "name": "OMRAN Engineering & Construction",
       "image": "https://yourdomain.com/assets/img/home-1/project/cover.jpg",
       "@id": "https://yourdomain.com/",
       "url": "https://yourdomain.com/",
@@ -203,9 +203,9 @@
         "closes": "18:00"
       }],
       "sameAs": [
-        "https://facebook.com/elbazengineering",
-        "https://instagram.com/elbazengineering",
-        "https://linkedin.com/company/elbazengineering"
+        "https://facebook.com/omranengineering",
+        "https://instagram.com/omranengineering",
+        "https://linkedin.com/company/omranengineering"
       ]
     }
     </script>
@@ -282,7 +282,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="#home">
-                                    <img height="60" width="215" src="assets/img/logo/black-logo.png" alt="ELBAZ logo" loading="lazy" decoding="async">
+                                    <img height="60" width="215" src="assets/img/logo/black-logo.png" alt="OMRAN logo" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -341,7 +341,7 @@
                             </div>
                             <div class="social-icon d-flex align-items-center">
                                 <a href="https://www.facebook.com/share/17AkcYVbKw/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/elbaz_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/omran_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

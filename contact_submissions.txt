@@ -1,0 +1,16 @@
+
+============================================================
+Date: 2025-10-31 19:21:09
+Name: fdsf
+Email: dsfdsfds@gmail.com
+Message: dsfdsfdfdfds
+IP: ::1
+============================================================
+
+============================================================
+Date: 2025-10-31 19:23:07
+Name: dsdsa
+Email: mostafaessam.eg@gmail.com
+Message: Thank you! Your message has been received. (Saved locally for testing - email will work on live server)
+IP: ::1
+============================================================

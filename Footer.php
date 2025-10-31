@@ -7,7 +7,7 @@
                             <div class="gt-footer-widget-items">
                                 <div class="gt-widget-head">
                                     <a href="index.html" class="gt-footer-logo">
-                                        <img src="assets/img/logo/white-logo.png" alt="ELBAZ Engineering & Construction logo" height="60" width="215" loading="eager" decoding="async">
+                                        <img src="assets/img/logo/white-logo.png" alt="OMRAN Engineering & Construction logo" height="60" width="215" loading="eager" decoding="async">
                                     </a>
                                 </div>
                                 <div class="gt-footer-content">
@@ -112,7 +112,7 @@
                                 </ul>
                                 <div class="footer-socials">
                                     <a href="https://www.facebook.com/share/17AkcYVbKw/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com/elbaz_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/omran_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fa-brands fa-instagram"></i></a>
                                     <a class="d-none" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
                                     <a class="d-none" href="https://dribbble.com/"><i class="fa-brands fa-dribbble"></i></a>
                                 </div>
@@ -125,7 +125,7 @@
                         <p>© 2025 <b>Elbza.EG</b>. All Rights Reserved.</p>
                         <div class="gt-social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
                             <a href="https://www.facebook.com/share/17AkcYVbKw/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/elbaz_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/omran_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fab fa-instagram"></i></a>
 
                         </div>
                     </div>

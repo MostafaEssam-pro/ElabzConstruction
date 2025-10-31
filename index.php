@@ -18,7 +18,7 @@
                                     </h2>
                                 </div>
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".5s">
-                                    At Elabz.EG, We Build More Than Just Structures — We Build Trust. As A New But Driven Engineering And Construction Firm, We’re Founded On Strong Work Ethics, A Deep Respect For Craftsmanship, And An Unwavering Commitment To Safety And Durability. We Believe That Every Project We Take On Is A Long-term Investment — Not Just For Our Clients, But For The Communities We Serve. That’s Why We Focus On Quality Materials, Sound Engineering, And Construction Practices That Prioritize Safety And Longevity. Whether It's Residential, Or Commercial, Our Approach Is Hands-on, Detail-oriented, And Always Guided By Integrity. We Don't Cut Corners; We Build Them Strong. With A Team Of Skilled Professionals And A Mindset That Blends Innovation With Reliability, We’re Here To Deliver Results You Can Count On Today And For Decades To Come.
+                                    At OMRAN, We Build More Than Just Structures — We Build Trust. As A New But Driven Engineering And Construction Firm, We’re Founded On Strong Work Ethics, A Deep Respect For Craftsmanship, And An Unwavering Commitment To Safety And Durability. We Believe That Every Project We Take On Is A Long-term Investment — Not Just For Our Clients, But For The Communities We Serve. That’s Why We Focus On Quality Materials, Sound Engineering, And Construction Practices That Prioritize Safety And Longevity. Whether It's Residential, Or Commercial, Our Approach Is Hands-on, Detail-oriented, And Always Guided By Integrity. We Don't Cut Corners; We Build Them Strong. With A Team Of Skilled Professionals And A Mindset That Blends Innovation With Reliability, We’re Here To Deliver Results You Can Count On Today And For Decades To Come.
 
 
                                 </p>
@@ -155,7 +155,7 @@
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp gt-style-4" style="visibility: visible;">Welcome </h6>
 <h2 class="wow splt-txt  text-white" data-splitting style="visibility: visible;">
-      ELBAZ engineering &amp; construction
+      OMRAN engineering &amp; construction
 </h2>                            </div>
                             <p class="gt-about-text wow fadeInUp text-white" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s;">
 with over 10 years of experience in construction, I started this company to offer clients a reliable, all-in-one solution for residential, commercial, and industrial projects. We don’t just handle the civil and architecture, we take care of the electrical and mechanical systems too, so our clients don’t have to coordinate with multiple contractors. Our goal is to make the building process efficient, safe, and hassle-free, while delivering lasting results
@@ -402,7 +402,7 @@ with over 10 years of experience in construction, I started this company to offe
                         <div class="col-lg-6">
                             <div class="gt-purposes-content">
                                 <div class="gt-section-title mb-0">
-                                    <h6 class="text-white wow fadeInUp">WELCOME TO ELBAZ ENGINEERING & CONSTRUCTION</h6>
+                                    <h6 class="text-white wow fadeInUp">WELCOME TO OMRAN ENGINEERING & CONSTRUCTION</h6>
                                     <h2 class="text-white wow splt-txt" data-splitting>
                                         WHY CHOOSE US
                                     </h2>
@@ -461,14 +461,14 @@ with over 10 years of experience in construction, I started this company to offe
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="gt-team-image-4">
-                        <img src="assets/img/home-1/team/team-01.jpg" alt="Team member Mostafa Elbaz" loading="lazy" decoding="async">
+                        <img src="assets/img/home-1/team/team-01.jpg" alt="Team member Mostafa OMRAN" loading="lazy" decoding="async">
                         <div class="gt-social-icon">
                             <a href="#home"><i class="fab fa-facebook-f"></i></a>
                             <a href="#home"><i class="fab fa-twitter"></i></a>
                         </div>
                         <div class="gt-team-content">
                             <div class="gt-team-title">
-                                <h3><a href="team-details.html">Mostafa Elbaz</a></h3>
+                                <h3><a href="team-details.html">Mostafa OMRAN</a></h3>
                                 <p>CEO</p>
                             </div>
                             <a href="#home" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
@@ -545,7 +545,8 @@ with over 10 years of experience in construction, I started this company to offe
 
 
                 <h2>Get In Touch</h2>
-                <form action="contact.html#" id="contact-form" method="POST" aria-labelledby="contact-form-heading">
+                <div id="contact-form-message" role="alert" aria-live="polite" style="display: none; margin-bottom: 20px; padding: 15px; border-radius: 5px;"></div>
+                <form action="contact_handler.php" id="contact-form" method="POST" aria-labelledby="contact-form-heading">
                     <div class="row g-4" style="    text-align: justify;">
                         <div class="col-lg-6">
                             <div class="form-clt">
@@ -559,6 +560,12 @@ with over 10 years of experience in construction, I started this company to offe
                                 <input type="email" name="email" id="email2" placeholder="Your Email*" aria-labelledby="label-email" autocomplete="email" required>
                             </div>
                         </div>
+                            <div class="col-lg-12">
+                            <div class="form-clt">
+                                <span id="label-phone">Your Phone Number</span>
+                                <input type="tel" name="phone" id="phone" placeholder="Phone Number (Optional)" aria-labelledby="label-phone" autocomplete="tel" pattern="[0-9+\-\s()]*">
+                            </div>
+                        </div>
                         <div class="col-lg-12">
                             <div class="form-clt">
                                 <span id="label-message">Your Message</span>
@@ -567,7 +574,7 @@ with over 10 years of experience in construction, I started this company to offe
                         </div>
                         <div class="col-lg-12">
                             <div class="contact-btn">
-                                <button type="submit" class="gt-theme-btn">
+                                <button type="submit" class="gt-theme-btn" id="submit-btn">
                                         <span class="gt-text-btn">
                                             <span class="gt-text-2">SEND MESSAGE <i class="fa-solid fa-chevrons-right"></i></span>
                                     </span>
@@ -576,6 +583,81 @@ with over 10 years of experience in construction, I started this company to offe
                         </div>
                     </div>
                 </form>
+                <script>
+                (function() {
+                    const form = document.getElementById('contact-form');
+                    const messageDiv = document.getElementById('contact-form-message');
+                    const submitBtn = document.getElementById('submit-btn');
+
+                    if (!form) return;
+
+                    form.addEventListener('submit', function(e) {
+                        e.preventDefault();
+
+                        // Disable submit button
+                        submitBtn.disabled = true;
+                        submitBtn.innerHTML = '<span class="gt-text-btn"><span class="gt-text-2">SENDING... <i class="fa-solid fa-spinner fa-spin"></i></span></span>';
+
+                        // Hide previous messages
+                        messageDiv.style.display = 'none';
+
+                        // Get form data
+                        const formData = new FormData(form);
+
+                        // Send AJAX request
+                        fetch('contact_handler.php', {
+                            method: 'POST',
+                            body: formData
+                        })
+                        .then(async (response) => {
+                            const text = await response.text();
+                            let data;
+                            try {
+                                data = JSON.parse(text);
+                            } catch (e) {
+                                // Fallback: treat 200 OK as success even if non-JSON
+                                data = { success: response.ok, message: (text && text.length < 500 ? text : 'Thank you! Your message has been sent.') };
+                            }
+                            return data;
+                        })
+                        .then(data => {
+                            // Show message
+                            messageDiv.style.display = 'block';
+                            messageDiv.textContent = data.message;
+
+                            if (data.success) {
+                                messageDiv.style.backgroundColor = '#d4edda';
+                                messageDiv.style.color = '#155724';
+                                messageDiv.style.border = '1px solid #c3e6cb';
+                                form.reset();
+
+                                // Scroll to message
+                                messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            } else {
+                                messageDiv.style.backgroundColor = '#d4edda';
+                                messageDiv.style.color = '#155724';
+                                messageDiv.style.border = '1px solid #c3e6cb';
+                            }
+
+                            // Re-enable submit button
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = '<span class="gt-text-btn"><span class="gt-text-2">SEND MESSAGE <i class="fa-solid fa-chevrons-right"></i></span></span>';
+                        })
+                        .catch(error => {
+                            // Show error message
+                            messageDiv.style.display = 'block';
+                            messageDiv.style.backgroundColor = '#f8d7da';
+                            messageDiv.style.color = '#721c24';
+                            messageDiv.style.border = '1px solid #f5c6cb';
+                            messageDiv.textContent = 'An error occurred. Please try again later.';
+
+                            // Re-enable submit button
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = '<span class="gt-text-btn"><span class="gt-text-2">SEND MESSAGE <i class="fa-solid fa-chevrons-right"></i></span></span>';
+                        });
+                    });
+                })();
+                </script>
             </div>
         </div>
         </div>
@@ -586,7 +668,7 @@ with over 10 years of experience in construction, I started this company to offe
     <div class="gt-map-section">
         <div class="gt-map-items">
             <div class="googpemap">
-                <iframe title="ELBAZ Engineering & Construction location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4723.682877478863!2d31.447690684885803!3d30.007101981895953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAwJzI1LjYiTiAzMcKwMjYnNDMuOCJF!5e1!3m2!1sar!2seg!4v1761598680510!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="OMRAN Engineering & Construction location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4723.682877478863!2d31.447690684885803!3d30.007101981895953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAwJzI1LjYiTiAzMcKwMjYnNDMuOCJF!5e1!3m2!1sar!2seg!4v1761598680510!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
