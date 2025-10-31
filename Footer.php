@@ -122,7 +122,7 @@
                 </div>
                 <div class="footer-bottom">
                     <div class="footer-wrapper">
-                        <p>© 2025 <b>Elbza.EG</b>. All Rights Reserved.</p>
+                        <p>© 2025 <b>OMRAN.EG</b>. All Rights Reserved.</p>
                         <div class="gt-social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
                             <a href="https://www.facebook.com/share/17AkcYVbKw/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://www.instagram.com/omran_engineering_construction?igsh=MTg2NG84Z3dwZDV2Zw=="><i class="fab fa-instagram"></i></a>

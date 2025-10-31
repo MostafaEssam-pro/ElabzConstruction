@@ -3,14 +3,7 @@
     <!--<< Header Area >>-->
     <head>
     <!-- ========== Basic Meta Tags ========== -->
-    <?php
-      $isHttps = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on';
-      $origin = ($isHttps ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
-      $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
-      $pathOnly = parse_url($requestUri, PHP_URL_PATH) ?: '/';
-      $canonicalUrl = $origin . $pathOnly;
-      $defaultOgImage = $origin . '/assets/img/home-1/project/cover.jpg';
-    ?>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -41,21 +34,8 @@
     <meta name="geo.position" content="30.0330;31.2337">
     <meta name="ICBM" content="30.0330, 31.2337">
 
-    <!-- ========== Open Graph / Facebook ========== -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="OMRAN Engineering & Construction">
-    <meta property="og:title" content="OMRAN Engineering & Construction | Building Trust, Quality & Innovation">
-    <meta property="og:description" content="We design and build high-quality residential, commercial, and industrial projects in Egypt with full engineering and MEP services.">
-    <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES); ?>">
-    <meta property="og:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
-    <meta property="og:locale" content="en_US">
 
-    <!-- ========== Twitter Card ========== -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OMRAN Engineering & Construction | Reliable, Integrated Building Solutions">
-    <meta name="twitter:description" content="Trusted engineering & construction firm in Egypt — delivering excellence for over a decade.">
-    <meta name="twitter:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
-    <meta name="twitter:site" content="@OMRANEngineering">
+
 
     <!-- ========== Google Verification & Others ========== -->
     <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
@@ -71,77 +51,40 @@
     <!-- ========== Favicon & App Icons ========== -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
-    <!-- ========== Resource Hints ========== -->
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
-    <link rel="preconnect" href="https://maps.google.com" crossorigin>
-
-    <!-- Preload critical hero imagery -->
-    <link rel="preload" as="image" href="assets/img/home-1/hero/hero-bg.jpg" fetchpriority="high">
-    <link rel="preload" as="image" href="assets/img/home-1/hero/hero-1.png" fetchpriority="high">
 
     <!-- ========== Fonts & Stylesheets ========== -->
     <!-- Core CSS -->
         <!--<< Favcion >>-->
 
-        <link rel="shortcut icon" href="assets/img/favicon.svg">
+  <link rel="shortcut icon" href="assets/img/favicon.svg">
         <!--<< Bootstrap min.css >>-->
-        <link rel="preload" as="style" href="assets/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--<< All Min Css >>-->
-        <link rel="preload" as="style" href="assets/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/all.min.css"></noscript>
+        <link rel="stylesheet" href="assets/css/all.min.css">
         <!--<< Animate.css >>-->
-        <link rel="preload" as="style" href="assets/css/animate.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/animate.css"></noscript>
+        <link rel="stylesheet" href="assets/css/animate.css">
         <!--<< Magnific Popup.css >>-->
-        <link rel="preload" as="style" href="assets/css/magnific-popup.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/magnific-popup.css"></noscript>
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <!--<< MeanMenu.css >>-->
-        <link rel="preload" as="style" href="assets/css/meanmenu.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/meanmenu.css"></noscript>
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
         <!--<< Swiper Bundle.css >>-->
-        <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <!--<< Splitting.css >>-->
-        <link rel="preload" as="style" href="assets/css/splitting.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/splitting.css"></noscript>
+        <link rel="stylesheet" href="assets/css/splitting.css">
         <!--<< Nice Select.css >>-->
-        <link rel="preload" as="style" href="assets/css/nice-select.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/nice-select.css"></noscript>
+        <link rel="stylesheet" href="assets/css/nice-select.css">
         <!-- box layout css -->
-        <link rel="preload" as="style" href="assets/css/rtl.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/rtl.css"></noscript>
+        <link rel="stylesheet" href="assets/css/rtl.css">
         <!-- box layout css -->
-        <link rel="preload" as="style" href="assets/css/box-layout.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/box-layout.css"></noscript>
-        <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"></noscript>
+        <link rel="stylesheet" href="assets/css/box-layout.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <!--<< Icomon.css >>-->
-        <link rel="preload" as="style" href="assets/css/icomon.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/icomon.css"></noscript>
+        <link rel="stylesheet" href="assets/css/icomon.css">
         <!--<< Main.css >>-->
-        <link rel="preload" as="style" href="assets/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
-
-    <!-- ========== Font Preloads ========== -->
-    <link rel="preload" as="font" type="font/woff2" href="assets/webfonts/fa-solid-900.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="assets/webfonts/fa-regular-400.woff2" crossorigin>
+        <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- ========== Accessibility: Skip Link Styles ========== -->
-    <style>
-      .skip-to-content{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
-      .skip-to-content:focus{position:static;left:auto;width:auto;height:auto;display:inline-block;padding:8px 12px;background:#000;color:#fff;z-index:1000}
-      /* Disable blocking preloader overlay */
-      .preloader,.loader{display:none !important}
-      /* Respect reduced motion and lighten main thread */
-      @media (prefers-reduced-motion: reduce){
-        *,*::before,*::after{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;scroll-behavior:auto !important}
-      }
-    </style>
 
     <!-- ========== Structured Data / Schema.org ========== -->
     <script type="application/ld+json">
@@ -213,7 +156,6 @@
     <!-- close head -->
     </head>
     <body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
 
         <div class="page-wrapper" id="home">
          <!-- Preloader Container -->
@@ -222,20 +164,20 @@
             <div class="spinner">
             </div>
             <div class="txt-loading">
-                <span data-text-preloader="E" class="letters-loading">
-                    E
+                <span data-text-preloader="O" class="letters-loading">
+                    O
                 </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L
+                <span data-text-preloader="M" class="letters-loading">
+                    M
                 </span>
-                <span data-text-preloader="B" class="letters-loading">
-                    B
+                <span data-text-preloader="R" class="letters-loading">
+                    R
                 </span>
                 <span data-text-preloader="A" class="letters-loading">
                     A
                 </span>
-                <span data-text-preloader="Z" class="letters-loading">
-                    Z
+                <span data-text-preloader="N" class="letters-loading">
+                    N
                 </span>
                 <span data-text-preloader="E" class="letters-loading">
                     E
