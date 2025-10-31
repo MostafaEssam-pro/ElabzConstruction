@@ -2,66 +2,184 @@
 <html lang="en">
     <!--<< Header Area >>-->
     <head>
-        <!-- ========== Meta Tags ========== -->
     <!-- ========== Basic Meta Tags ========== -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- ========== SEO Meta Tags ========== -->
-    <title>ELBAZ Engineering & Construction | Building Trust, Quality & Innovation</title>
-    <meta name="description" content="ELBAZ Engineering & Construction — over 10 years of experience in residential, commercial, and industrial projects. We provide integrated civil, architectural, electrical, and mechanical services.">
-    <meta name="keywords" content="ELBAZ, Engineering, Construction, Egypt, Civil Engineering, Architecture, Electrical, Mechanical, Industrial Projects, Commercial Construction, Finishes, MEP, Design, Building, Contractors">
+    <!-- ========== Primary SEO Meta Tags ========== -->
+    <title>ELBAZ Engineering & Construction | Reliable, Integrated Building Solutions in Egypt</title>
+    <meta name="description" content="ELBAZ Engineering & Construction — experts in civil, architectural, electrical, and mechanical works for residential, commercial, and industrial projects in Egypt. Over 10 years of trusted experience.">
+    <meta name="keywords" content="ELBAZ Engineering, ELBAZ Construction, Construction Egypt, Engineering Company Egypt, Civil Engineering, MEP, Architecture Design, Industrial Projects, Commercial Buildings, Finishes, Cairo Contractors, Building Company, Engineering Firm Cairo">
     <meta name="author" content="ELBAZ Engineering & Construction">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
 
-    <!-- ========== Open Graph / Facebook ========== -->
-    <meta property="og:title" content="ELBAZ Engineering & Construction | Building Trust, Quality & Innovation">
-    <meta property="og:description" content="Your trusted partner in construction and engineering — delivering excellence across residential, commercial, and industrial sectors.">
-    <meta property="og:url" content="https://yourdomain.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="ELBAZ Engineering & Construction">
+    <!-- ========== Language & Locale ========== -->
+    <meta name="language" content="English">
+    <meta http-equiv="content-language" content="en">
+    <link rel="alternate" hreflang="en" href="https://yourdomain.com/">
+    <link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/">
 
-    <!-- ========== Twitter Card ========== -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ELBAZ Engineering & Construction | Building Trust, Quality & Innovation">
-    <meta name="twitter:description" content="We design, build, and manage projects that stand the test of time — with full engineering and construction solutions.">
+    <!-- ========== Canonical & URL Tags ========== -->
+    <link rel="canonical" href="https://yourdomain.com/">
 
-    <!-- ========== Contact Info (Structured Data / SEO) ========== -->
+    <!-- ========== Geo & Local Business ========== -->
     <meta name="geo.region" content="EG">
-    <meta name="geo.placename" content="Cairo, Egypt">
+    <meta name="geo.placename" content="New Cairo, Cairo, Egypt">
     <meta name="geo.position" content="30.0330;31.2337">
     <meta name="ICBM" content="30.0330, 31.2337">
 
-        <!-- ======== Page title ============ -->
-        <title>Conztra - Construction and Architecture HTML Template</title>
+    <!-- ========== Open Graph / Facebook ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ELBAZ Engineering & Construction">
+    <meta property="og:title" content="ELBAZ Engineering & Construction | Building Trust, Quality & Innovation">
+    <meta property="og:description" content="We design and build high-quality residential, commercial, and industrial projects in Egypt with full engineering and MEP services.">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:image" content="https://yourdomain.com/assets/img/home-1/project/cover.jpg">
+    <meta property="og:locale" content="en_US">
+
+    <!-- ========== Twitter Card ========== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ELBAZ Engineering & Construction | Reliable, Integrated Building Solutions">
+    <meta name="twitter:description" content="Trusted engineering & construction firm in Egypt — delivering excellence for over a decade.">
+    <meta name="twitter:image" content="https://yourdomain.com/assets/img/home-1/project/cover.jpg">
+    <meta name="twitter:site" content="@ELBAZEngineering">
+
+    <!-- ========== Google Verification & Others ========== -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+    <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+    <meta name="yandex-verification" content="YOUR_YANDEX_CODE">
+
+    <!-- ========== Performance & PWA ========== -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#f8b500">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- ========== Favicon & App Icons ========== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+    <!-- ========== Resource Hints ========== -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+    <!-- ========== Fonts & Stylesheets ========== -->
+    <!-- Core CSS -->
         <!--<< Favcion >>-->
         <link rel="shortcut icon" href="assets/img/favicon.svg">
         <!--<< Bootstrap min.css >>-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="preload" as="style" href="assets/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
         <!--<< All Min Css >>-->
-        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="preload" as="style" href="assets/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/all.min.css"></noscript>
         <!--<< Animate.css >>-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="preload" as="style" href="assets/css/animate.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/animate.css"></noscript>
         <!--<< Magnific Popup.css >>-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="preload" as="style" href="assets/css/magnific-popup.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/magnific-popup.css"></noscript>
         <!--<< MeanMenu.css >>-->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <link rel="preload" as="style" href="assets/css/meanmenu.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/meanmenu.css"></noscript>
         <!--<< Swiper Bundle.css >>-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
         <!--<< Splitting.css >>-->
-        <link rel="stylesheet" href="assets/css/splitting.css">
+        <link rel="preload" as="style" href="assets/css/splitting.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/splitting.css"></noscript>
         <!--<< Nice Select.css >>-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="preload" as="style" href="assets/css/nice-select.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/nice-select.css"></noscript>
         <!-- box layout css -->
-        <link rel="stylesheet" href="assets/css/rtl.css">
+        <link rel="preload" as="style" href="assets/css/rtl.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/rtl.css"></noscript>
         <!-- box layout css -->
-        <link rel="stylesheet" href="assets/css/box-layout.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="preload" as="style" href="assets/css/box-layout.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/box-layout.css"></noscript>
+        <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"></noscript>
         <!--<< Icomon.css >>-->
-        <link rel="stylesheet" href="assets/css/icomon.css">
+        <link rel="preload" as="style" href="assets/css/icomon.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/icomon.css"></noscript>
         <!--<< Main.css >>-->
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="preload" as="style" href="assets/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+
+    <!-- ========== Structured Data / Schema.org ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ELBAZ Engineering & Construction",
+      "url": "https://yourdomain.com/",
+      "logo": "https://yourdomain.com/assets/img/logo.png",
+      "foundingDate": "2015",
+      "founder": {
+        "@type": "Person",
+        "name": "Eng. Mohamed Elbaz"
+      },
+      "description": "ELBAZ Engineering & Construction — a trusted construction and engineering firm offering civil, architectural, electrical, and mechanical solutions across Egypt.",
+      "telephone": "+20-120-506-2226",
+      "email": "info@example.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "23 Talat Harb Axis, New Cairo",
+        "addressLocality": "Cairo",
+        "addressCountry": "EG"
+      },
+      "areaServed": "Egypt",
+      "sameAs": [
+        "https://facebook.com/elbazengineering",
+        "https://instagram.com/elbazengineering",
+        "https://linkedin.com/company/elbazengineering"
+      ]
+    }
+    </script>
+
+    <!-- ========== Local Business Schema ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ELBAZ Engineering & Construction",
+      "image": "https://yourdomain.com/assets/img/home-1/project/cover.jpg",
+      "@id": "https://yourdomain.com/",
+      "url": "https://yourdomain.com/",
+      "telephone": "+20-120-506-2226",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "23 Talat Harb Axis, New Cairo",
+        "addressLocality": "Cairo",
+        "addressCountry": "EG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.0330,
+        "longitude": 31.2337
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Sunday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }],
+      "sameAs": [
+        "https://facebook.com/elbazengineering",
+        "https://instagram.com/elbazengineering",
+        "https://linkedin.com/company/elbazengineering"
+      ]
+    }
+    </script>
+
+    <!-- close head -->
     </head>
     <body>
 
@@ -131,12 +249,12 @@
                     <div class="offcanvas__content">
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
-                                <a href="index.php">
-                                    <img height="60" width="215" src="assets/img/logo/black-logo.png" alt="logo-img">
+                                <a href="#home">
+                                    <img height="60" width="215" src="assets/img/logo/black-logo.png" alt="ELBAZ logo" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
-                                <button>
+                                <button type="button" aria-label="Close menu">
                                     <i class="fas fa-times"></i>
                                 </button>
                             </div>
@@ -153,7 +271,7 @@
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">23 Talat Harb Axis, New Cairo, Cairo, Egypt</a>
+                                        <a target="_blank" href="#home">23 Talat Harb Axis, New Cairo, Cairo, Egypt</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -209,103 +327,3 @@ if ($currentPage === 'Sector.php' || $currentPage === 'Project.php') {
     include 'NavBarBlack.php';
 }
 ?>
-
-
-        <!-- GT Shop Details Popup Start -->
-        <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog style-shop-details modal-dialog-centered modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                       <div class="gt-shop-details-wrapper">
-                        <div class="row g-4">
-                            <div class="col-lg-6">
-                                <div class="gt-shop-details-image">
-                                    <img src="assets/img/inner/shop-details/details-01.jpg" alt="img">
-                                    <span class="gt-box-text">(09% Of)</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="gt-shop-details-content">
-                                    <h6><span>Brand:</span> Conztra</h6>
-                                    <h2>Cordless Screwdriver Drill</h2>
-                                    <ul class="price-list">
-                                        <li>
-                                            Price: <span>$250.00</span>
-                                        </li>
-                                        <li>
-                                            <del>$279.00</del>
-                                        </li>
-                                    </ul>
-                                    <span class="eye-icon">
-                                        <i class="fa-regular fa-eye"></i>
-                                        16 people are viewing this right now
-                                    </span>
-                                    <ul class="color-list">
-                                        <li>
-                                            <span>Color:</span>
-                                        </li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>(79+ Review)</span>
-                                    </div>
-                                    <p>
-                                        Hurry! Only 12 units left in stock!
-                                    </p>
-                                    <div class="cart-quantity">
-                                        <p class="qty">
-                                            <button class="qtyminus" aria-hidden="true">−</button>
-                                            <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1">
-                                            <button class="qtyplus" aria-hidden="true">+</button>
-                                        </p>
-                                        <a href="shop-details.html" class="shop-btn theme-btn">Add to cart</a>
-                                        <div class="icon-item">
-                                            <a href="shop-details.html" class="icon">
-                                                <i class="far fa-heart"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="buy-btn">
-                                        Buy It Now
-                                    </button>
-                                    <ul class="gt-list-items">
-                                        <li>
-                                            <span>Certification:</span> Meets DOT, ECE, or Snell safety standards
-                                        </li>
-                                        <li>
-                                            <span>Maximum Protection:</span> Full coverage for your head, face, and chin
-                                        </li>
-                                    </ul>
-                                    <div class="share-list">
-                                        <span>Share With:</span>
-                                        <a href="index.html#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="index.html#"><i class="fab fa-twitter"></i></a>
-                                        <a href="index.html#"><i class="fab fa-vimeo-v"></i></a>
-                                        <a href="index.html#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                    <div class="gt-bank-list">
-                                        <div class="">
-                                            Guaranteed
-                                            <span>Safe & Secure Checkout</span>
-                                        </div>
-                                        <img src="assets/img/inner/shop-details/pay_brand.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>

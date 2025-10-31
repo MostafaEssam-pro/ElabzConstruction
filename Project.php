@@ -80,8 +80,7 @@ $projects = [
         'details' => 'Scope: Temporary works, erection sequencing, site supervision and QA/QC.',
         'gallery' => [
             'assets/img/home-1/projectOne/02.jpg',
-            'assets/img/home-1/projectOne/03.jpg',
-            'assets/img/inner-page/project-details/details-2.jpg'
+
         ],
         'goal_image' => 'assets/img/home-1/projectOne/goal-2.jpg',
         'challenge_image' => 'assets/img/home-1/projectOne/challenge-2.jpg',
@@ -144,7 +143,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const lazyImages = document.querySelectorAll("img.lazyload");
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove("lazyload");
+                observer.unobserve(img);
+            }
+        });
+    });
 
+    lazyImages.forEach(img => observer.observe(img));
+});
+</script>
+<style>
+    .lazyload {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.lazyload:not([data-src]) {
+    opacity: 1;
+}
+img:not(.lazyload) {
+    opacity: 1;
+}
+
+</style>
 <!-- GT Breadcrunb Section Start -->
 <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
     <div class="gt-right-shape">
@@ -318,17 +346,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="swiper-slide">
                         <div class="gt-gallery-item">
                             <a href="<?php echo htmlspecialchars($img); ?>" class="gallery-popup" data-index="<?php echo $i; ?>">
-                                <img src="<?php echo htmlspecialchars($img); ?>" alt="project photo" class="img-fluid gallery-thumb">
+                                <img
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                                    data-src="<?php echo htmlspecialchars($img); ?>"
+                                    alt="project photo"
+                                    class="img-fluid gallery-thumb lazyload"
+                                    loading="lazy"
+                                >
                             </a>
                         </div>
                     </div>
                 <?php endforeach; ?>
             </div>
+
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
     </div>
 </section>
+
 
 <style>
 /* larger thumbnails */

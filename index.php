@@ -34,10 +34,10 @@
                         <div class="col-lg-6">
                             <div class="gt-about-image-items">
                                 <div class="gt-about-image wow img-custom-anim-right">
-                                    <img src="assets/img/home-1/projectOne/17.jpg" alt="img" class="gt-about-img-1" width="100%" height="600">
+                                    <img src="assets/img/home-1/projectOne/17.jpg" alt="Project photo 17" class="gt-about-img-1" width="100%" height="600" loading="lazy" decoding="async">
                                 </div>
                                 <div class="gt-about-image-2 wow img-custom-anim-left " data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                    <img src="assets/img/home-1/projectOne/47.jpg" alt="img" width="100%" height="300" class="gt-about-img-2">
+                                    <img src="assets/img/home-1/projectOne/47.jpg" alt="Project photo 47" width="100%" height="300" class="gt-about-img-2" loading="lazy" decoding="async">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-01.jpg" alt="img">
+                                <img src="assets/img/home-1/service/service-01.jpg" alt="Industrial construction" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -78,7 +78,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                         <div class="service-card-items">
                             <div class="service-image">
-                               <img src="assets/img/home-1/service/service-02.jpg" alt="img">
+                               <img src="assets/img/home-1/service/service-02.jpg" alt="Commercial construction" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -96,7 +96,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-03.jpg" alt="img">
+                                <img src="assets/img/home-1/service/service-03.jpg" alt="Luxury finishes" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -114,7 +114,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-03.jpg" alt="img">
+                                <img src="assets/img/home-1/service/service-03.jpg" alt="Engineering and design" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -138,9 +138,9 @@
 
                     <div class="col-lg-6">
                        <div class="gt-about-image">
-                            <img  src="assets/img/home-1/projectOne/13.jpg" alt="img" class="wow img-custom-anim-left" style="visibility: visible; height: 486px; width: 543px;">
+                           <img  src="assets/img/home-1/projectOne/13.jpg" alt="Project photo 13" class="wow img-custom-anim-left" style="visibility: visible; height: 486px; width: 543px;" loading="lazy" decoding="async">
                             <div class="gt-about-image-2 wow img-custom-anim-right" style="visibility: visible;">
-                                <img src="assets/img/home-1/projectOne/48.jpg" alt="img">
+                                <img src="assets/img/home-1/projectOne/48.jpg" alt="Project photo 48" loading="lazy" decoding="async">
                             </div>
                             <div class="counter-box">
                                 <h2>
@@ -173,17 +173,17 @@ with over 10 years of experience in construction, I started this company to offe
                 <div class="swiper-wrapper gt-slide-transtion">
                     <div class="swiper-slide gt-brand-slide-element">
                         <div class="brand-image">
-                            <img src="assets/img/home-1/brand/brand-01.png" alt="img">
+                            <img src="assets/img/home-1/brand/brand-01.png" alt="Brand 1" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide gt-brand-slide-element">
                         <div class="brand-image">
-                            <img src="assets/img/home-1/brand/brand-02.png" alt="img">
+                            <img src="assets/img/home-1/brand/brand-02.png" alt="Brand 2" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide gt-brand-slide-element">
                         <div class="brand-image">
-                            <img src="assets/img/home-1/brand/brand-03.png" alt="img">
+                            <img src="assets/img/home-1/brand/brand-03.png" alt="Brand 3" loading="lazy" decoding="async">
                         </div>
                     </div>
 
@@ -194,12 +194,12 @@ with over 10 years of experience in construction, I started this company to offe
                     </div>
                      <div class="swiper-slide gt-brand-slide-element">
                         <div class="brand-image">
-                            <img src="assets/img/home-1/brand/brand-05.png" alt="img">
+                            <img src="assets/img/home-1/brand/brand-05.png" alt="Brand 5" loading="lazy" decoding="async">
                         </div>
                     </div>
                      <div class="swiper-slide gt-brand-slide-element">
                         <div class="brand-image">
-                            <img src="assets/img/home-1/brand/brand-06.png" alt="img">
+                            <img src="assets/img/home-1/brand/brand-06.png" alt="Brand 6" loading="lazy" decoding="async">
                         </div>
                     </div>
                 </div>
@@ -308,27 +308,27 @@ with over 10 years of experience in construction, I started this company to offe
                             <ul class="project-img-group">
                                 <li class="active">
                                     <div class="project-img">
-                                        <img src="assets/img/home-1/projectOne/17.jpg" alt="img">
+                                        <img src="assets/img/home-1/projectOne/17.jpg" alt="Project photo 17" loading="lazy" decoding="async">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="project-img">
-                                    <img src="assets/img/home-1/project/02.jpg" alt="img">
+                                    <img src="assets/img/home-1/project/02.jpg" alt="Project 02" loading="lazy" decoding="async">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="project-img">
-                                    <img src="assets/img/home-1/project/03.jpg" alt="img">
+                                    <img src="assets/img/home-1/project/03.jpg" alt="Project 03" loading="lazy" decoding="async">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="project-img">
-                                        <img src="assets/img/home-1/project/04.jpg" alt="img">
+                                        <img src="assets/img/home-1/project/04.jpg" alt="Project 04" loading="lazy" decoding="async">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="project-img">
-                                        <img src="assets/img/home-1/project/05.jpg" alt="img">
+                                        <img src="assets/img/home-1/project/05.jpg" alt="Project 05" loading="lazy" decoding="async">
                                     </div>
                                 </li>
                             </ul>
@@ -387,7 +387,7 @@ with over 10 years of experience in construction, I started this company to offe
                     <div class="row g-4 align-items-center">
                         <div class="col-lg-6">
                             <div class="gt-purposes-image">
-                                <img src="assets/img/home-1/projectOne/30.jpg" alt="img" class="wow img-custom-anim-left">
+                                <img src="assets/img/home-1/projectOne/30.jpg" alt="Project photo 30" class="wow img-custom-anim-left" loading="lazy" decoding="async">
                                 <div class="gt-circle-box">
                                     <a href="#contact-us" class="gt-arrow">
                                         <i class="fa-solid fa-arrow-right"></i>
@@ -460,17 +460,17 @@ with over 10 years of experience in construction, I started this company to offe
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="gt-team-image-4">
-                        <img src="assets/img/home-1/team/team-01.jpg" alt="img">
+                        <img src="assets/img/home-1/team/team-01.jpg" alt="Team member Mostafa Elbaz" loading="lazy" decoding="async">
                         <div class="gt-social-icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#home"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#home"><i class="fab fa-twitter"></i></a>
                         </div>
                         <div class="gt-team-content">
                             <div class="gt-team-title">
                                 <h3><a href="team-details.html">Mostafa Elbaz</a></h3>
                                 <p>CEO</p>
                             </div>
-                            <a href="#" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
+                            <a href="#home" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
                         </div>
                     </div>
                 </div>
@@ -478,17 +478,17 @@ with over 10 years of experience in construction, I started this company to offe
                     <div class="gt-team-image-4">
                         <img src="assets/img/home-1/team/team-02.jpg" alt="img">
                         <div class="gt-social-icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#home"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#home"><i class="fab fa-twitter"></i></a>
+                            <a href="#home"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#home"><i class="fab fa-pinterest-p"></i></a>
                         </div>
                         <div class="gt-team-content">
                             <div class="gt-team-title">
                                 <h3><a href="team-details.html">Jessica Brown</a></h3>
                                 <p>Project Manager</p>
                             </div>
-                            <a href="#" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
+                            <a href="#home" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
                         </div>
                     </div>
                 </div>
@@ -496,17 +496,17 @@ with over 10 years of experience in construction, I started this company to offe
                     <div class="gt-team-image-4">
                         <img src="assets/img/home-1/team/team-03.jpg" alt="img">
                         <div class="gt-social-icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#home"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#home"><i class="fab fa-twitter"></i></a>
+                            <a href="#home"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#home"><i class="fab fa-pinterest-p"></i></a>
                         </div>
                         <div class="gt-team-content">
                             <div class="gt-team-title">
                                 <h3><a href="team-details.html">David Cooper</a></h3>
                                 <p>Project Manager</p>
                             </div>
-                            <a href="#" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
+                            <a href="#home" class="arrow-icon"><i class="fa-regular fa-share-nodes"></i></a>
                         </div>
                     </div>
                 </div>
@@ -544,24 +544,24 @@ with over 10 years of experience in construction, I started this company to offe
 
 
                 <h2>Get In Touch</h2>
-                <form action="contact.html#" id="contact-form" method="POST">
+                <form action="contact.html#" id="contact-form" method="POST" aria-labelledby="contact-form-heading">
                     <div class="row g-4" style="    text-align: justify;">
                         <div class="col-lg-6">
                             <div class="form-clt">
-                                <span>Your Name</span>
-                                <input type="text" name="name" id="name" placeholder="Full Name*">
+                                <span id="label-name">Your Name</span>
+                                <input type="text" name="name" id="name" placeholder="Full Name*" aria-labelledby="label-name" autocomplete="name" required>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-clt">
-                                <span>Your Email</span>
-                                <input type="text" name="email" id="email2" placeholder="Your Email*">
+                                <span id="label-email">Your Email</span>
+                                <input type="email" name="email" id="email2" placeholder="Your Email*" aria-labelledby="label-email" autocomplete="email" required>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-clt">
-                                <span>Your Message</span>
-                                <textarea name="message" id="message" placeholder="Message Here*"></textarea>
+                                <span id="label-message">Your Message</span>
+                                <textarea name="message" id="message" placeholder="Message Here*" aria-labelledby="label-message" rows="5" required></textarea>
                             </div>
                         </div>
                         <div class="col-lg-12">
@@ -585,7 +585,7 @@ with over 10 years of experience in construction, I started this company to offe
     <div class="gt-map-section">
         <div class="gt-map-items">
             <div class="googpemap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4723.682877478863!2d31.447690684885803!3d30.007101981895953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAwJzI1LjYiTiAzMcKwMjYnNDMuOCJF!5e1!3m2!1sar!2seg!4v1761598680510!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe title="ELBAZ Engineering & Construction location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4723.682877478863!2d31.447690684885803!3d30.007101981895953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAwJzI1LjYiTiAzMcKwMjYnNDMuOCJF!5e1!3m2!1sar!2seg!4v1761598680510!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>

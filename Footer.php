@@ -7,7 +7,7 @@
                             <div class="gt-footer-widget-items">
                                 <div class="gt-widget-head">
                                     <a href="index.html" class="gt-footer-logo">
-                                        <img src="assets/img/logo/white-logo.png" alt="img" height="60" width="215">
+                                        <img src="assets/img/logo/white-logo.png" alt="ELBAZ Engineering & Construction logo" height="60" width="215" loading="eager" decoding="async">
                                     </a>
                                 </div>
                                 <div class="gt-footer-content">
@@ -17,14 +17,14 @@
                                     <ul class="gt-contact-list">
                                         <li>
                                             <div class="icon">
-                                                <img src="assets/img/call.png" alt="img">
+                                                <img src="assets/img/call.png" alt="Phone icon" loading="lazy" decoding="async">
                                                 <span>Phone</span>
                                             </div>
                                             <a href="tel:+0201092551428">0201092551428</a>
                                         </li>
                                         <li>
                                             <div class="icon">
-                                                <img src="assets/img/location.png" alt="img">
+                                                <img src="assets/img/location.png" alt="Location icon" loading="lazy" decoding="async">
                                                 <span>Location</span>
                                             </div>
                                             Cairo Egypt
