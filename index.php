@@ -4,6 +4,7 @@
 <?php include 'Slider.php'; ?>
 
         <!-- GT About Us Section Start -->
+        <main id="main-content" role="main">
         <section id="about-us"  class="gt-about-section fix section-padding">
             <div class="container">
                 <div class="gt-about-wrapper">
@@ -34,10 +35,10 @@
                         <div class="col-lg-6">
                             <div class="gt-about-image-items">
                                 <div class="gt-about-image wow img-custom-anim-right">
-                                    <img src="assets/img/home-1/projectOne/17.jpg" alt="Project photo 17" class="gt-about-img-1" width="100%" height="600" loading="lazy" decoding="async">
+                                    <img src="assets/img/home-1/about/1.jpeg" alt="Project photo 17" class="gt-about-img-1" width="100%" height="600" loading="lazy" decoding="async">
                                 </div>
                                 <div class="gt-about-image-2 wow img-custom-anim-left " data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                    <img src="assets/img/home-1/projectOne/47.jpg" alt="Project photo 47" width="100%" height="300" class="gt-about-img-2" loading="lazy" decoding="async">
+                                    <img src="assets/img/home-1/about/2.jpeg" alt="Project photo 47" width="100%" height="300" class="gt-about-img-2" loading="lazy" decoding="async">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +61,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-01.jpg" alt="Industrial construction" loading="lazy" decoding="async">
+                                <img src="assets/img/home-1/service/indus.jpeg" alt="Industrial construction" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -78,7 +79,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                         <div class="service-card-items">
                             <div class="service-image">
-                               <img src="assets/img/home-1/service/service-02.jpg" alt="Commercial construction" loading="lazy" decoding="async">
+                               <img src="assets/img/home-1/service/com.jpeg" alt="Commercial construction" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -96,7 +97,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-03.jpg" alt="Luxury finishes" loading="lazy" decoding="async">
+                                <img src="assets/img/home-1/service/fini.png" alt="Luxury finishes" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -114,7 +115,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div class="service-card-items">
                             <div class="service-image">
-                                <img src="assets/img/home-1/service/service-03.jpg" alt="Engineering and design" loading="lazy" decoding="async">
+                                <img src="assets/img/home-1/service/desig.png" alt="Engineering and design" loading="lazy" decoding="async">
                             </div>
                             <div class="service-content">
                                 <div class="icon">
@@ -225,7 +226,7 @@ with over 10 years of experience in construction, I started this company to offe
                                     <div class="project-content">
                                         <span>01.</span>
                                         <h5>
-                                            <a href="Project.php?project=engineering-design-nyc">Engineering Design NYC
+                                            <a href="Project.php?project=engineering-design-nyc">Triple-p
                                             </a>
                                             <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -233,7 +234,7 @@ with over 10 years of experience in construction, I started this company to offe
                                             </svg>
                                         </h5>
                                         <p>
-                                            In addition to competition companies also face challenges related
+                                        head office and steel workshop project
                                         </p>
                                     </div>
                                 </li>
@@ -387,7 +388,7 @@ with over 10 years of experience in construction, I started this company to offe
                     <div class="row g-4 align-items-center">
                         <div class="col-lg-6">
                             <div class="gt-purposes-image">
-                                <img src="assets/img/home-1/projectOne/30.jpg" alt="Project photo 30" class="wow img-custom-anim-left" loading="lazy" decoding="async">
+                                <img src="assets/img/home-1/hero/02.jpg" alt="Project photo 30" class="wow img-custom-anim-left" loading="lazy" decoding="async">
                                 <div class="gt-circle-box">
                                     <a href="#contact-us" class="gt-arrow">
                                         <i class="fa-solid fa-arrow-right"></i>
@@ -451,7 +452,7 @@ with over 10 years of experience in construction, I started this company to offe
         </section>
 
 
-<section class="gt-team-section-4 fix section-padding" id="OurTeam">
+<section class="gt-team-section-4 fix section-padding d-none" id="OurTeam">
         <div class="container">
             <div class="gt-section-title text-center">
                 <h6 class="wow fadeInUp justify-content-center gt-style-4" style="visibility: visible; animation-name: fadeInUp;">OUR TEAM</h6>
@@ -589,7 +590,7 @@ with over 10 years of experience in construction, I started this company to offe
             </div>
         </div>
     </div>
-
+        </main>
 <?php
 include 'Footer.php';
 ?>

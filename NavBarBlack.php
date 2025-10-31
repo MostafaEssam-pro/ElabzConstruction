@@ -1,4 +1,4 @@
-<header id="header-sticky" class="header-1">
+<header id="header-sticky" class="header-1 header-5">
             <div class="container-fluid">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
@@ -23,7 +23,7 @@
                                             <li><a href="#sector">Sector</a></li>
                                             <li><a href="#brand">Brand</a></li>
                                             <li><a href="#project">Project</a></li>
-                                            <li><a href="#OurTeam">Our Team</a></li>
+                                            <li class="d-none"><a href="#OurTeam">Our Team</a></li>
 
                                             <li><a href="#contact-us">Contact Us</a>
 

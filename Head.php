@@ -3,6 +3,14 @@
     <!--<< Header Area >>-->
     <head>
     <!-- ========== Basic Meta Tags ========== -->
+    <?php
+      $isHttps = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on';
+      $origin = ($isHttps ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+      $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+      $pathOnly = parse_url($requestUri, PHP_URL_PATH) ?: '/';
+      $canonicalUrl = $origin . $pathOnly;
+      $defaultOgImage = $origin . '/assets/img/home-1/project/cover.jpg';
+    ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -21,11 +29,11 @@
     <!-- ========== Language & Locale ========== -->
     <meta name="language" content="English">
     <meta http-equiv="content-language" content="en">
-    <link rel="alternate" hreflang="en" href="https://yourdomain.com/">
-    <link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/">
+    <link rel="alternate" hreflang="en" href="<?php echo $origin; ?>/">
+    <link rel="alternate" hreflang="ar" href="<?php echo $origin; ?>/ar/">
 
     <!-- ========== Canonical & URL Tags ========== -->
-    <link rel="canonical" href="https://yourdomain.com/">
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES); ?>">
 
     <!-- ========== Geo & Local Business ========== -->
     <meta name="geo.region" content="EG">
@@ -38,15 +46,15 @@
     <meta property="og:site_name" content="ELBAZ Engineering & Construction">
     <meta property="og:title" content="ELBAZ Engineering & Construction | Building Trust, Quality & Innovation">
     <meta property="og:description" content="We design and build high-quality residential, commercial, and industrial projects in Egypt with full engineering and MEP services.">
-    <meta property="og:url" content="https://yourdomain.com/">
-    <meta property="og:image" content="https://yourdomain.com/assets/img/home-1/project/cover.jpg">
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
     <meta property="og:locale" content="en_US">
 
     <!-- ========== Twitter Card ========== -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ELBAZ Engineering & Construction | Reliable, Integrated Building Solutions">
     <meta name="twitter:description" content="Trusted engineering & construction firm in Egypt — delivering excellence for over a decade.">
-    <meta name="twitter:image" content="https://yourdomain.com/assets/img/home-1/project/cover.jpg">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($defaultOgImage, ENT_QUOTES); ?>">
     <meta name="twitter:site" content="@ELBAZEngineering">
 
     <!-- ========== Google Verification & Others ========== -->
@@ -68,10 +76,17 @@
     <!-- ========== Resource Hints ========== -->
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+    <link rel="preconnect" href="https://maps.google.com" crossorigin>
+
+    <!-- Preload critical hero imagery -->
+    <link rel="preload" as="image" href="assets/img/home-1/hero/hero-bg.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/img/home-1/hero/hero-1.png" fetchpriority="high">
 
     <!-- ========== Fonts & Stylesheets ========== -->
     <!-- Core CSS -->
         <!--<< Favcion >>-->
+
         <link rel="shortcut icon" href="assets/img/favicon.svg">
         <!--<< Bootstrap min.css >>-->
         <link rel="preload" as="style" href="assets/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
@@ -111,6 +126,22 @@
         <!--<< Main.css >>-->
         <link rel="preload" as="style" href="assets/css/main.css" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+
+    <!-- ========== Font Preloads ========== -->
+    <link rel="preload" as="font" type="font/woff2" href="assets/webfonts/fa-solid-900.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="assets/webfonts/fa-regular-400.woff2" crossorigin>
+
+    <!-- ========== Accessibility: Skip Link Styles ========== -->
+    <style>
+      .skip-to-content{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+      .skip-to-content:focus{position:static;left:auto;width:auto;height:auto;display:inline-block;padding:8px 12px;background:#000;color:#fff;z-index:1000}
+      /* Disable blocking preloader overlay */
+      .preloader,.loader{display:none !important}
+      /* Respect reduced motion and lighten main thread */
+      @media (prefers-reduced-motion: reduce){
+        *,*::before,*::after{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;scroll-behavior:auto !important}
+      }
+    </style>
 
     <!-- ========== Structured Data / Schema.org ========== -->
     <script type="application/ld+json">
@@ -182,6 +213,7 @@
     <!-- close head -->
     </head>
     <body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
 
         <div class="page-wrapper" id="home">
          <!-- Preloader Container -->
@@ -324,6 +356,6 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 if ($currentPage === 'Sector.php' || $currentPage === 'Project.php') {
     include 'NavBarWhite.php';
 } else {
-    include 'NavBarBlack.php';
+    include 'NavBarWhite.php';
 }
 ?>

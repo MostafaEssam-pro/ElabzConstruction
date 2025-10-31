@@ -5,10 +5,17 @@ include 'Head.php';
 // Whitelisted projects data
 $projects = [
     'engineering-design-nyc' => [
-        'title' => 'Engineering Design NYC',
+        'title' => 'Triple-p head office and steel workshop project',
         'image' => 'assets/img/home-1/projectOne/17.jpg',
-        'summary' => 'Integrated engineering design for a mixed-use development in NYC.',
-        'details' => 'Scope: Structural design, MEP coordination, BIM management and construction support. Delivered full design package and shop drawings.',
+        'category' => 'head office',
+        'client' => 'Triple-P',
+        'start_date' => '2024-08-01',
+        'end_date' => '1/8/2026',
+        'location' => '6 october, Egypt',
+        'price' => '40,000,000 LE',
+
+        'summary' => 'The Triple-P project combines corporate and industrial functions within one integrated facility. The development includes a modern head office building for administrative operations and a steel fabrication workshop designed for high-capacity production and efficient workflow.',
+        'details' => 'The Triple-P project combines corporate and industrial functions within one integrated facility. The development includes a modern head office building for administrative operations and a steel fabrication workshop designed for high-capacity production and efficient workflow.',
         'gallery' => [
             'assets/img/home-1/projectOne/1.jpg',
             'assets/img/home-1/projectOne/2.jpg',

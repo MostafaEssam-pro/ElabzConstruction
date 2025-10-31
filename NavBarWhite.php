@@ -19,7 +19,7 @@
                                             <li><a href="#sector">Sector</a></li>
                                             <li><a href="#brand">Brand</a></li>
                                             <li><a href="#project">Project</a></li>
-                                            <li><a href="#OurTeam">Our Team</a></li>
+                                            <li class="d-none"  ><a href="#OurTeam">Our Team</a></li>
 
                                             <li><a href="#contact-us">Contact Us</a>
 

@@ -59,10 +59,12 @@
                                            Brand
                                         </a>
                                     </li>
-                                    <li>
+
+                                    <li class="d-none">
                                         <a href="#OurTeam">
-                                           Our Team
+                                            Our Team
                                         </a>
+                                    </li>
                                     </li>
                                 </ul>
                             </div>
@@ -133,33 +135,33 @@
         </div>
 
         <!--<< All JS Plugins >>-->
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script defer src="assets/js/jquery-3.7.1.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!--<< Viewport Js >>-->
-        <script src="assets/js/viewport.jquery.js"></script>
+        <script defer src="assets/js/viewport.jquery.js"></script>
         <!--<< Bootstrap Js >>-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script defer src="assets/js/bootstrap.bundle.min.js"></script>
         <!--<< nice-selec Js >>-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script defer src="assets/js/jquery.nice-select.min.js"></script>
         <!--<< Waypoints Js >>-->
-        <script src="assets/js/jquery.waypoints.js"></script>
+        <script defer src="assets/js/jquery.waypoints.js"></script>
         <!--<< Counterup Js >>-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script defer src="assets/js/jquery.counterup.min.js"></script>
         <!--<< Swiper Slider Js >>-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script defer src="assets/js/swiper-bundle.min.js"></script>
         <!--<< MeanMenu Js >>-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script defer src="assets/js/jquery.meanmenu.min.js"></script>
         <!--<< Magnific Popup Js >>-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
         <!--<< Splitting Js >>-->
-        <script src="assets/js/splitting.js"></script>
+        <script defer src="assets/js/splitting.js"></script>
         <!--<< Wow Animation Js >>-->
-        <script src="assets/js/wow.min.js"></script>
+        <script defer src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
-        <script src="assets/js/splitting-animation.js"></script>
+        <script defer src="assets/js/splitting-animation.js"></script>
         <!--<< Main.js >>-->
-        <script src="assets/js/template-settings.js"></script>
+        <script defer src="assets/js/template-settings.js"></script>
         <!--<< Template Setting.js >>-->
-        <script src="assets/js/main.js"></script>
+        <script defer src="assets/js/main.js"></script>
     </body>
 </html>
