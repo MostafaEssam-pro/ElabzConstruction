@@ -169,7 +169,19 @@ with over 10 years of experience in construction, I started this company to offe
         </div>
     </section>
         <!-- GT Brand Section Start -->
-        <div id="brand" class="gt-brand-section section-padding fix">
+           <div  class="gt-brand-section section-padding ">
+            <div class="swiper " style=justify-self: start;>
+                <div class="swiper-wrapper " style="    justify-content: center;">
+                    <div class="swiper-slide gt-brand-slide-element">
+                        <div class="brand-image">
+                            <img src="assets/img/home-1/brand/brand-03.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="brand" class="gt-brand-section section-padding fix d-none">
             <div class="swiper gt-brand-slider">
                 <div class="swiper-wrapper gt-slide-transtion">
                     <div class="swiper-slide gt-brand-slide-element">
@@ -177,18 +189,18 @@ with over 10 years of experience in construction, I started this company to offe
                             <img src="assets/img/home-1/brand/brand-03.png" alt="Brand 1" loading="lazy" decoding="async">
                         </div>
                     </div>
-                    <div class="swiper-slide gt-brand-slide-element ">
+                    <div class="swiper-slide gt-brand-slide-element d-none">
                         <div class="brand-image">
                             <img src="assets/img/home-1/brand/brand-03.png" alt="Brand 2" loading="lazy" decoding="async">
                         </div>
                     </div>
-                    <div class="swiper-slide gt-brand-slide-element ">
+                    <div class="swiper-slide gt-brand-slide-element d-none">
                         <div class="brand-image">
                             <img src="assets/img/home-1/brand/brand-03.png" alt="Brand 3" loading="lazy" decoding="async">
                         </div>
                     </div>
 
-                     <div class="swiper-slide gt-brand-slide-element ">
+                     <div class="swiper-slide gt-brand-slide-element d-none">
                         <div class="brand-image">
                             <img src="assets/img/home-1/brand/brand-03.png" alt="Brand 4" loading="lazy" decoding="async">
                         </div>
