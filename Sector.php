@@ -6,7 +6,7 @@ include 'Head.php';
 $allowed = [
     'industrial'  => [
         'title' => 'Industrial',
-        'image' => 'assets/img/home-1/service/service-01.jpg',
+        'image' => 'assets/img/home-1/service/indus.jpeg',
         'overview' => 'Large-scale heavy civil and process facilities delivering durable, safe and maintainable infrastructure. We manage structural, mechanical, electrical and civil works across manufacturing, processing and utility sites.',
         'services' => [
             'Turnkey EPC for factories and processing plants',
@@ -35,7 +35,7 @@ $allowed = [
     ],
     'commercial'  => [
         'title' => 'Commercial',
-        'image' => 'assets/img/home-1/service/service-02.jpg',
+        'image' => 'assets/img/home-1/service/com.jpeg',
         'overview' => 'Commercial construction for offices, retail, healthcare and hospitality with focus on finish quality, schedule coordination and tenant requirements.',
         'services' => [
             'Shell & core and fit-out packages',
@@ -62,7 +62,7 @@ $allowed = [
     ],
     'finishes'    => [
         'title' => 'Finishes',
-        'image' => 'assets/img/home-1/service/service-03.jpg',
+        'image' => 'assets/img/home-1/service/fini.png',
         'overview' => 'High-end interior and exterior finishes — millwork, decorative ceilings, specialist coatings and precision installations to match architectural intent.',
         'services' => [
             'Custom joinery and millwork',
@@ -88,7 +88,7 @@ $allowed = [
     ],
     'engineering' => [
         'title' => 'Engineering And Design',
-        'image' => 'assets/img/home-1/service/service-04.jpg',
+        'image' => 'assets/img/home-1/service/desig.png',
         'overview' => 'Integrated engineering, MEP and design coordination from concept through construction documentation and shop drawings.',
         'services' => [
             'Concept design and feasibility studies',

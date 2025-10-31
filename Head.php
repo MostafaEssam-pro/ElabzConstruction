@@ -78,7 +78,7 @@
         <link rel="stylesheet" href="assets/css/rtl.css">
         <!-- box layout css -->
         <link rel="stylesheet" href="assets/css/box-layout.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <!--<< Icomon.css >>-->
         <link rel="stylesheet" href="assets/css/icomon.css">
         <!--<< Main.css >>-->

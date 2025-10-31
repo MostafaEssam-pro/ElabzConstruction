@@ -13821,3 +13821,8 @@ span {
   background: linear-gradient(90deg, rgba(248, 181, 0, 0.8), rgba(29, 29, 29, 0.8));
 ;
 }/*# sourceMappingURL=main.css.map */
+
+
+p, a, li, h1, h2, h3, h4, h5, h6, span {
+  text-transform: capitalize !important;
+}
